@@ -1,0 +1,10 @@
+prefix=@PREFIX@
+libdir=@LIBDIR@
+includedir=${prefix}/include
+abi_version=@ABI_VERSION@
+
+Name: librptadvsquelch
+Description: Portable MICOR and VOX squelch ABI for rpt_advanced
+Version: @VERSION@
+Libs: -L${libdir} -lrptadvsquelch
+Cflags: -I${includedir}
