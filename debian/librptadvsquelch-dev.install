@@ -1,0 +1,3 @@
+usr/include/rptadvsquelch/rptadvsquelch.h
+usr/lib/*/librptadvsquelch.so
+usr/lib/*/pkgconfig/rptadvsquelch.pc
