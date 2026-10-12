@@ -7,7 +7,7 @@ Standards-Version: 4.7.2
 Homepage: https://github.com/cpeter1207/librptadvsquelch
 Rules-Requires-Root: no
 
-Package: librptadvsquelch1
+Package: librptadvsquelch2
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -17,7 +17,7 @@ Description: portable squelch state for rpt_advanced
 Package: librptadvsquelch-dev
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, librptadvsquelch1 (= ${binary:Version})
+Depends: ${misc:Depends}, librptadvsquelch2 (= ${binary:Version})
 Description: development files for rpt_advanced squelch
  Public C header and pkg-config metadata for dynamic consumers of the
  portable squelch ABI.
